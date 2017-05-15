@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Password Strength Indicator</title>
+        
+        <!-- The stylesheet -->
+        <link rel="stylesheet" href="styles.css" />
+        
+      
+    </head>
+    
+    <body>
+
+        <div id="main">
+        	
+        	<h1>Check it, it's FREE!</h1>
+        	
+        	<form class="" method="post" action="">
+        		
+        		<div class="row email">
+	    			<input type="text" id="email" name="email" placeholder="Email" />
+        		</div>
+        		
+        		<div class="row pass">
+        			<input type="password" id="password1" name="password1" placeholder="Password" />
+        		</div>
+        		
+        		<div class="row pass">
+        			<input type="password" id="password2" name="password2" placeholder="Password (repeat)" disabled="true" />
+        		</div>
+        		
+        		<!-- The rotating arrow -->
+        		<div class="arrowCap"></div>
+        		<div class="arrow"></div>
+        		
+        		<p class="meterText">Password Meter</p>
+        		
+        		<input type="submit" value="Check" />
+        		
+        	</form>
+        </div>
+        
+        <footer>
+	        <h2><i>Copyright:</i> Awanish Verma</h2>
+            <a class="tzine" href="https://avanishverma4.blogspot.in/">View my <b>Graphic Design</b> works here</a>
+        </footer>
+        
+        <!-- JavaScript includes - jQuery, the complexify plugin and our own script.js -->
+		<script src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
+		<script src="jquery.complexify.js"></script>
+		<script src="script.js"></script>
+		     
+    </body>
+</html>
